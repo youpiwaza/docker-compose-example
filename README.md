@@ -1,6 +1,6 @@
 # Docker compose example
 
-Set up both nginx & phpfpm, with a sample page, available on [localhost:8080](http://localhost:8080/)
+Set up both nginx & phpfpm, with a sample page, available on [localhost:80](http://localhost:80/), for convenience (no specific port to set in firewall)
 
 ```bash
 # Go to your own folder

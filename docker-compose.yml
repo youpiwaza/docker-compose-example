@@ -8,7 +8,8 @@ services:
     networks:
       - network-php
     ports:
-      - '8080:80'
+      # - '8080:80'
+      - '80:80'
     volumes:
       # Project files, bind mount for dev (allow files updates on refresh)
       - type: bind
